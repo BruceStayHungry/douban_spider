@@ -1,2 +1,31 @@
-# douban_spider
- a spider of douban users and douban events
+# Douban Spider
+豆瓣爬虫，爬取的内容包括：
+ 1. 用户的信息
+ 2. 事件的信息
+# 数据格式
+用户：
+ -
+| 属性 | 描述 | 示例 |
+|--|--|--|
+| id | 用户id |92497641|
+| city | 城市 |广东广州|
+| description | 描述 |人生至高的追求:做个有趣无害的人。|
+| name | 用户名 |特立独行的金鱼|
+| signature | 个性签名 |读书不是爱好，而是生活必需品|
+| verified | 是否认证 |false|
+| verified_type | 认证类型 |“”|
+| attend_events | 参加的事件id列表 |[]|
+| wish_events | 感兴趣的事件id列表 |[23163156]|
+
+
+事件：
+ -
+| 属性 | 描述 | 示例 |
+|--|--|--|
+| id | 事件id |33079576|
+| date | 举办时间 |2019年11月28日 周四 19:25-21:01|
+| location | 举办地点 |广州 越秀区 北京路飞扬影城IMAX店|
+| title | 事件标题 |葛优赵薇乔杉主演疗愈喜剧《两只老虎》超前观影+主创见面会|
+| type | 事件类型 |电影-主题放映|
+| participants | 参与者id列表 |[Vseayin, sjzbr, 56210995, 180829229, ...]|
+| wishers | 感兴趣者id列表 |[206396344, 164127041, 206881798, 57320512, ... ]|
