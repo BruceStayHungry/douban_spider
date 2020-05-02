@@ -24,7 +24,7 @@ TESTER_MAP = {
 
 TEST_URL_MAP = {
     # 'weibo': 'https://m.weibo.cn/',
-    'douban': 'https://www.douban.com/'
+    'douban': 'https://www.douban.com/mine/orders/'
 }
 
 # 产生器和验证器循环周期
